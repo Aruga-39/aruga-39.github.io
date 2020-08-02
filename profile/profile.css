@@ -1,0 +1,109 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-feature-settings: "palt";
+}
+
+.h-link{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    background: rgba(255, 170, 59, 0.623);
+    width: 100%;
+}
+
+.h-link ul{
+    list-style: none;
+    display: flex;
+}
+
+.h-link ul a{
+    text-decoration: none;
+    padding-right: 2rem;
+    font-size: 2em;
+    color: #fff;
+}
+
+.h-link ul a:hover{
+    color: rgb(253, 83, 83);
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 254, 217);
+}
+
+.profile-title{
+    margin-top: 15vh;
+    color: rgb(209, 154, 51);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+
+}
+
+.aruga-img{
+    display: block;
+    border-radius: 50%;
+}
+
+.aruga-img img{
+    border-radius: 50%;
+}
+
+.aruga-text{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.skill{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.skill-text{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+}
+
+.comment{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.comment-text{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 251, 137);
+}
+
+div{
+    opacity : 0;
+    transform: translateY(50px);
+    transition: 1.5s;
+}
