@@ -18,6 +18,7 @@
     position: fixed;
     background: rgba(255, 170, 59, 0.623);
     width: 100%;
+    z-index: 2;
 }
 
 .h-link ul{
@@ -56,6 +57,7 @@
 .aruga-img{
     display: block;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .aruga-img img{
