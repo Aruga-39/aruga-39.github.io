@@ -244,9 +244,11 @@ footer{
 
 .music2 h4{
     font-size: 3rem;
+    color: #000;
 }
 
 .music2 p{
+    color: #000;
     padding-top:15%;
     padding-bottom: 15%;
     padding-left: 15%;
